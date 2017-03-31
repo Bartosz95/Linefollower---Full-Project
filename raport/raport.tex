@@ -1,0 +1,127 @@
+
+% Definicja klasy dokumentu
+\documentclass[12pt,a4paper]{article}
+
+
+
+
+%------------------------------------
+% 			Pakiety
+\usepackage[utf8x]{inputenc}
+\usepackage{ucs}
+\usepackage[MeX]{polski}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\pagestyle{fancy}
+
+%---------------------------------------
+% 		Dodanie strony tytulowej do dokumentu
+\input{tytulowa.tex} 
+
+%-----------------------------------------
+% 		Poczatek dokumentu
+\begin{document}
+\maketitle % Komenda maktitle dodaje stronę tytułową do dokumentu głównego
+\tableofcontents % Komenda tableofcontents dodaje spis treści do dokumentu głównego
+\newpage % Komenda newpage przechodzi do nowej strony w dokumencie.
+
+
+%				Dokument wlasciwy
+\section{Wstęp}
+
+Celem projektu jest wykonanie robota mobilnego klasy linefollower. Zadaniem tego robota jest poruszanie się po czarnej linii na białym tle. Robot ma mieścić się na kartce A4. 
+
+Robot będzie posiadał dwa enkodery AS5048A i komunikował się z nimi za pomocą interfejsu SPI.
+
+\section{Założenia projektowe}
+\begin{itemize}
+
+\item Robot będzie składał się z 2 części - płytki głównej, na której będzie znajdował się mikrokontroler wraz z resztą elektroniki i akumulatorem oraz z płytki, na której będą czujniki odbiciowe. 
+
+\item Napęd robota będą stanowiły 2 silniki Pololu.
+
+\item Robot będzie zasilany przez akumulator Li-Pol o napięciu 7,4V i pojemności 300mAh.
+
+\item Zabezpieczenie przed odwrotną polaryzacją w postaci tranzystora MOSFET oraz zabezpieczenie prądowe.
+
+\item Pomiar napięcia baterii - sygnalizacja rozładowania się w postaci diody.
+
+\item Projekt oparty o mikrokontroler STM32F051C8Tx, ponieważ jest mały, a posiada wystarczającą ilość potrzebnych peryferii.
+
+\item 8 czujników odbiciowych KTIR0711s do wykrywania czarnej linii.
+
+\item Silniki sterowane poprzez mostek TB6612.
+
+\item Komunikacja z robotem będzie odbywała się przez moduł Bluetooth. 
+
+\item 2 enkodery AS5048A obsługiwane za pomocą SPI.
+
+
+Gdy uda się zrealizować powyższe założenia, w planie jest opcjonalne rozszerzenie projektu o dodanie:
+
+
+\item turbiny ssącej
+
+\item czujników odległośći Sharp
+
+
+\end{itemize}
+
+\section{Plan pracy}
+
+\subsection{Harmonogram}
+
+\begin{itemize}
+
+\item Zaprojektowanie schematu - 16.04.2017
+
+\item Zaprojektowanie płytki PCB - 7.05.2017
+
+\item Wytrawiona i polutowana płytka - 14.05.2017
+
+\item Wstępne zaprogramowanie robota - 4.06.2017
+
+\item Testy gotowego programu - 18.06.2017
+
+\item Raport końcowy - 22.06.2017
+
+\end{itemize}
+
+\subsection{Kamienie milowe}
+
+\begin{itemize}
+\item Zaprojektowana schematu - 16.04.2017
+
+\item Rozpoczęcie programowania robota - 15.05.2017
+
+\item Gotowy projekt wraz z raportem - 22.06.2017
+\end{itemize}
+
+
+
+
+\bibliographystyle{plunsrt}
+\bibliography{mybib}
+\clearpage
+\end{document}
+
+%Wzór numerowania
+
+%\section{Punkt}
+%\subsection{Podpunkt}
+
+
+%Wzór dodawania obrazu
+
+%\includegraphics[width=1\textwidth]{lipol.png}
+%\caption{Schemat akumulatora \label{fig:lipol}}
+%\end{figure}
+%\begin{figure}[tp]
+%\centering
+%\includegraphics[width=1\textwidth]{stabilizator.png}
+%\caption{Schemat stabilizatorów \label{fig:stabilizator}}
+%\end{figure}
