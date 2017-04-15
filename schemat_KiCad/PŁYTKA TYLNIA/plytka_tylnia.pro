@@ -1,4 +1,4 @@
-update=21.03.2017 21:58:50
+update=13.04.2017 19:19:04
 version=1
 last_client=kicad
 [cvpcb]
@@ -69,13 +69,8 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=D:/OneDrive/Polibuda/KoNaR/Warsztaty Robotyczne #03 - KiCad/lib/edulib
-LibName32=D:/OneDrive/Polibuda/KoNaR/Warsztaty Robotyczne #03 - KiCad/lib/stm32 (2)
-LibName33=D:/OneDrive/Polibuda/KoNaR/Warsztaty Robotyczne #03 - KiCad/lib/stm32
-LibName34=D:/OneDrive/Polibuda/KoNaR/Warsztaty Robotyczne #03 - KiCad/lib/warsztaty
-LibName35=D:/OneDrive/Polibuda/KoNaR/Warsztaty Robotyczne #03 - KiCad/lib/w_rtx
-LibName36=D:/Programy/KiCad/Dodane/lib/edulib
-LibName37=D:/Programy/KiCad/Dodane/lib/stm32 (2)
-LibName38=D:/Programy/KiCad/Dodane/lib/stm32
-LibName39=D:/Programy/KiCad/Dodane/lib/w_rtx
-LibName40=D:/Programy/KiCad/Dodane/lib/warsztaty
+LibName31=D:/Programy/KiCad/Dodane/lib/edulib
+LibName32=D:/Programy/KiCad/Dodane/lib/stm32 (2)
+LibName33=D:/Programy/KiCad/Dodane/lib/stm32
+LibName34=D:/Programy/KiCad/Dodane/lib/w_rtx
+LibName35=D:/Programy/KiCad/Dodane/lib/warsztaty
