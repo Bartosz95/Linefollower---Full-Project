@@ -28,7 +28,77 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:warsztaty
+LIBS:w_rtx
 LIBS:stm32
+LIBS:stm32 (2)
+LIBS:edulib
+LIBS:AS5048A-HTSP-500
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:infineon
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:LEM
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
 LIBS:płytka_przednia-cache
 EELAYER 25 0
 EELAYER END
@@ -856,14 +926,14 @@ Wire Wire Line
 Wire Wire Line
 	5150 1900 5550 1900
 $Comp
-L CONN_01X12 Wyjscie_plytka_tylnia
-U 1 1 58D90191
-P 8400 3250
-F 0 "Wyjscie_plytka_tylnia" H 8400 3900 50  0000 C CNN
-F 1 "ZIP 12" V 8500 3250 50  0000 C CNN
-F 2 "" H 8400 3250 50  0001 C CNN
-F 3 "" H 8400 3250 50  0001 C CNN
-	1    8400 3250
+L CONN_01X10 J1
+U 1 1 58F21C83
+P 8400 3150
+F 0 "J1" H 8400 3700 50  0000 C CNN
+F 1 "PIN10" V 8500 3150 50  0000 C CNN
+F 2 "misc:fpc_10_pin" H 8400 3150 50  0001 C CNN
+F 3 "" H 8400 3150 50  0001 C CNN
+	1    8400 3150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

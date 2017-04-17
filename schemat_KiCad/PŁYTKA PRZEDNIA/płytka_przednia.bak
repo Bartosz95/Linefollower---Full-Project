@@ -28,10 +28,77 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:edulib
-LIBS:stm32
 LIBS:warsztaty
+LIBS:w_rtx
+LIBS:stm32
 LIBS:stm32 (2)
+LIBS:edulib
+LIBS:AS5048A-HTSP-500
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:infineon
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:LEM
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
 LIBS:płytka_przednia-cache
 EELAYER 25 0
 EELAYER END
@@ -670,17 +737,6 @@ F 3 "" H 7600 2700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X10 WYJŚCIE_PLYTKA_TYLNIA1
-U 1 1 5826068D
-P 8400 3150
-F 0 "WYJŚCIE_PLYTKA_TYLNIA1" H 8400 3700 50  0000 C CNN
-F 1 "PIN10" V 8500 3150 50  0000 C CNN
-F 2 "warsztatymisc:fpc_10_pin" H 8400 3150 50  0001 C CNN
-F 3 "" H 8400 3150 50  0000 C CNN
-	1    8400 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L PWR_FLAG #FLG031
 U 1 1 582A6EB6
 P 2100 1400
@@ -869,4 +925,34 @@ Wire Wire Line
 	5150 3300 5450 3300
 Wire Wire Line
 	5150 1900 5550 1900
+$Comp
+L CONN_01X10 J1
+U 1 1 58F21C83
+P 8400 3150
+F 0 "J1" H 8400 3700 50  0000 C CNN
+F 1 "PIN10" V 8500 3150 50  0000 C CNN
+F 2 "misc:fpc_10_pin" H 8400 3150 50  0001 C CNN
+F 3 "" H 8400 3150 50  0001 C CNN
+	1    8400 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04_FEMALE J2
+U 1 1 58F22E9F
+P 8250 4250
+F 0 "J2" H 8250 4650 50  0000 C CNN
+F 1 "FEMALE_PIN4" H 8350 3850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch1.27mm_SMD_Pin1Left" H 8250 4550 50  0001 C CNN
+F 3 "" H 8250 4550 50  0001 C CNN
+	1    8250 4250
+	1    0    0    -1  
+$EndComp
+Text Label 8150 3950 2    60   ~ 0
+5V
+Text Label 8150 4150 2    60   ~ 0
+TRIG
+Text Label 8150 4350 2    60   ~ 0
+ECHO
+Text Label 8150 4550 2    60   ~ 0
+GND
 $EndSCHEMATC

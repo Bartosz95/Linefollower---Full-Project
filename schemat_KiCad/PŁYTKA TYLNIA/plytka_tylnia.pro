@@ -1,4 +1,4 @@
-update=13.04.2017 19:19:04
+update=17.04.2017 19:59:18
 version=1
 last_client=kicad
 [cvpcb]
@@ -33,8 +33,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -74,3 +72,5 @@ LibName32=D:/Programy/KiCad/Dodane/lib/stm32 (2)
 LibName33=D:/Programy/KiCad/Dodane/lib/stm32
 LibName34=D:/Programy/KiCad/Dodane/lib/w_rtx
 LibName35=D:/Programy/KiCad/Dodane/lib/warsztaty
+[general]
+version=1
