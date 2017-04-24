@@ -391,25 +391,6 @@ P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 ENDDRAW
 ENDDEF
 #
-# Przełącznik_dźwigniowy_podwójny_On-On_MTS
-#
-DEF Przełącznik_dźwigniowy_podwójny_On-On_MTS SWITCH 0 40 Y Y 1 F N
-F0 "SWITCH" 0 250 60 H V C CNN
-F1 "Przełącznik_dźwigniowy_podwójny_On-On_MTS" 0 250 4 H V C CNN
-F2 "" 0 250 60 H I C CNN
-F3 "" 0 250 60 H I C CNN
-DRAW
-S -150 150 150 -150 0 1 0 N
-S 150 -150 150 -100 0 1 0 N
-X 1 1 -250 100 98 R 50 50 1 1 I
-X 2 2 -250 0 98 R 50 50 1 1 I
-X 3 3 -250 -100 98 R 50 50 1 1 I
-X 4 4 250 100 98 L 50 50 1 1 I
-X 5 4 250 0 98 L 50 50 1 1 I
-X 6 6 250 -100 98 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # R
 #
 DEF R R 0 0 N Y 1 F N
