@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source D:\OneDrive\Programowanie\Roboty\Linefollower-2\schemat_KiCad\EENKODERY\enkodery.sch)
-    (date "15.04.2017 12:54:24")
+    (source D:/OneDrive/Programowanie/Roboty/Linefollower-2/schemat_KiCad/EENKODERY/enkodery.sch)
+    (date "14.05.2017 12:06:32")
     (tool "Eeschema 4.0.6")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -35,7 +35,7 @@
       (tstamp 58EFE809))
     (comp (ref J1)
       (value CONN_01X08)
-      (footprint Pin_Headers:Pin_Header_Angled_1x08_Pitch2.00mm)
+      (footprint Pin_Headers:Pin_Header_Straight_1x08_Pitch2.00mm)
       (libsource (lib conn) (part CONN_01X08))
       (sheetpath (names /) (tstamps /))
       (tstamp 58F1FDBF)))
@@ -94,12 +94,12 @@
         (pin (num 7) (name P7) (type passive))
         (pin (num 8) (name P8) (type passive)))))
   (libraries
-    (library (logical sensors)
-      (uri D:\Programy\KiCad\Dodane\kicad-library-master\library\sensors.lib))
     (library (logical device)
       (uri D:\Programy\KiCad\Dodane\kicad-library-master\library\device.lib))
     (library (logical conn)
-      (uri D:\Programy\KiCad\Dodane\kicad-library-master\library\conn.lib)))
+      (uri D:\Programy\KiCad\Dodane\kicad-library-master\library\conn.lib))
+    (library (logical sensors)
+      (uri D:\Programy\KiCad\Dodane\kicad-library-master\library\sensors.lib)))
   (nets
     (net (code 1) (name "Net-(ENKODER1-Pad5)")
       (node (ref ENKODER1) (pin 5)))

@@ -1,4 +1,4 @@
-update=15.04.2017 12:19:15
+update=14.05.2017 11:51:52
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../../../../../Programy/KiCad/Dodane/kicad-library-master/library
@@ -125,3 +123,5 @@ LibName93=Xicor
 LibName94=zetex
 LibName95=Zilog
 LibName96=D:/Programy/KiCad/Dodane/AS5048A-HTSP-500
+[general]
+version=1
