@@ -1,0 +1,16 @@
+10-17, 19 adc
+18, 21, 22, 29, 32 pwm output 
+5,6 rcc - crystal/ceramic 
+27,28, 30, 31, 42, 43 - gpio output
+33 - gpio exit 
+
+39, 40, 41 - spi(full duplex master)
+tim6 tim16 - enabled 
+
+clock 8MHz(in) 48MHz(out)
+adc - dma settings - priority: adc, mode: circular
+	- parametr settings - CCM: enabled, DCR: enabled, sampling time: 239,5
+NVIC - tim 6: enabled
+TIM1 - parametr settings - prescaler: 47, counter period 999
+uart 2 - parametr settings - parity: even
+spi - parametr settings - perscaler: 8 
