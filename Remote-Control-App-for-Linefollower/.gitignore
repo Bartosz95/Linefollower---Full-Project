@@ -1,3 +1,0 @@
-# Add any directories, files, or patterns you don't want to be tracked by version control
-*.o *.exe
-build-Program-Desktop_Qt_5_8_0_MinGW_32bit-Debug/*
